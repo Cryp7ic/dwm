@@ -13,11 +13,11 @@ static const int showbar            = 1;        /* 0 means no bar */
 static const int topbar             = 1;        /* 0 means bottom bar */
 static const char *fonts[]          = { "SF Pro Rounded:style=Heavy:size=12:antialias=true", "JetBrainsMono Nerd Font:size=12" };
 static const char dmenufont[]       = "monospace:size=10";
-static const char col_gray1[]       = "#1f2241";
-static const char col_gray2[]       = "#1f2241";
-static const char col_gray3[]       = "#d20f39";
+static const char col_gray1[]       = "#1e1e2e";
+static const char col_gray2[]       = "#313244";
+static const char col_gray3[]       = "#6c6f85";
 static const char col_gray4[]       = "#eeeeee";
-static const char col_accent[]      = "#d20f39";
+static const char col_accent[]      = "#ca6278";
 static const char *colors[][3]      = {
 	/*               fg         bg         border   */
 	[SchemeNorm] = { col_gray3, col_gray1, col_gray1 },
