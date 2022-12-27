@@ -13,9 +13,9 @@ static const int showbar            = 1;        /* 0 means no bar */
 static const int topbar             = 1;        /* 0 means bottom bar */
 static const char *fonts[]          = { "SF Pro Rounded:style=Heavy:size=12:antialias=true", "JetBrainsMono Nerd Font:size=12" };
 static const char dmenufont[]       = "monospace:size=10";
-static const char col_gray1[]       = "#1e1e2e";
-static const char col_gray2[]       = "#313244";
-static const char col_gray3[]       = "#ffffff";
+static const char col_gray1[]       = "#1f2241";
+static const char col_gray2[]       = "#1f2241";
+static const char col_gray3[]       = "#d20f39";
 static const char col_gray4[]       = "#eeeeee";
 static const char col_accent[]      = "#d20f39";
 static const char *colors[][3]      = {
@@ -85,7 +85,7 @@ static Key keys[] = {
 	{ MODKEY,                       XK_l,      setmfact,       {.f = +0.05} },
 	{ MODKEY,                       XK_Return, zoom,           {0} },
 	{ MODKEY,                       XK_Tab,    view,           {0} },
-	{ MODKEY|ShiftMask,             XK_q,      killclient,     {0} },
+	{ MODKEY|ShiftMask,             XK_c,      killclient,     {0} },
 	{ MODKEY,                       XK_t,      setlayout,      {.v = &layouts[0]} },
 	{ MODKEY,                       XK_f,      setlayout,      {.v = &layouts[1]} },
 	{ MODKEY,                       XK_m,      setlayout,      {.v = &layouts[2]} },
@@ -107,7 +107,7 @@ static Key keys[] = {
 	TAGKEYS(                        XK_7,                           6)
 	TAGKEYS(                        XK_8,                           7)
 	TAGKEYS(                        XK_9,                           8)
-	{ MODKEY|ShiftMask,             XK_c,      quit,           {0} },
+	{ MODKEY|ShiftMask,             XK_q,      quit,           {0} },
 };
 
 /* button definitions */
